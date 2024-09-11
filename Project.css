@@ -1,0 +1,274 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+
+
+
+body{
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0% 2%;
+}
+.main-container {
+    margin-bottom: 50px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #050505;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+#button {
+    background-color: #060606;
+    color: #f5f9f9;
+    height: 34px;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-center {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-center>a {
+  margin: 0 20px;
+}
+.navbar>a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.homer {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.service {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.facility {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.about {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Medilop {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.sign {
+    background-color: black;
+    color: #ddd;
+    margin-right: 20px;
+}
+.log {
+    text-align: right;
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+}
+.head1 {
+    font-family: Georgia, 'Times New Roman', 
+    Times, serif;
+    font-size: 3rem;
+    margin-right: 4%;
+}
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 70px;
+}
+.image {
+    height: 400px;
+    width: 600px;
+    top: 0;
+  }
+  .button {
+    color: aliceblue;
+    background-color: black;
+    height: 35px;
+    width: 80px;
+    font-family: 'Segoe UI', Tahoma, 
+    Geneva, Verdana, sans-serif;
+    padding: 0px;
+    border-left: 0px;
+    margin-right: 30px;
+}
+#password {
+    height: 30px;
+    width: 300px;
+    padding: 0px;
+    border-width: 2px;
+    border-color: black;
+}
+.sub-container44 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.sub-container44 .span-div {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: #0202025f;
+    color: #f9fcfb;
+    align-items: center;
+}
+.sub-span {
+    font-size: 3rem;
+}
+.span-text {
+    text-transform: uppercase;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0c0c0c;
+    color: #fdfefe;
+    text-align: center;
+    height: auto;
+    bottom: 0;
+}
+.bestservice {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+.parag {
+    flex-direction: column;
+}
+.kin {
+    flex-direction: column;
+    margin-right: 8%;
+}
+.myimage {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: auto;
+}
+.sub-bestservice {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: #fefcfc;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+}
+.otherpics {
+    display: flex;
+    padding: 2rem;
+    color: #fafcfc;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.sub-otherpics {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.sub-otherpics >img {
+    width: 100px;
+
+}
+.sub-otherpics >p {
+    color: black;
+}
+.caps {
+    font-weight: bold;
+}
+.more {
+    display: flex;
+    padding: 2rem;
+    color: #fafbfb;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+.main-doctors {
+    display: flex;
+    padding: 2rem;
+    color: #fbfdfd;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+.someinfo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #080808;
+    margin: auto;
+    text-align: center;
+    margin-bottom: auto;
+}
+.Doctor22 {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+
+}
+.button42 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+}
+.longrun {
+    width: 500px;
+    border: 1px solid blue;
+    padding: 10px 0px;
+    margin: 0px 0px;
+    background-color: rgb(126, 111, 111);
+}
+.onlinecare {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    align-items: top;
+    align-self: center;
+}
+.about44 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
